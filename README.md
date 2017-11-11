@@ -1,0 +1,2 @@
+# Reversing_Markov_Chains
+Sometimes we want to ”reverse” a Markov Chain process. Taking the inverse of the transition matrix allows this to work, but the inverse result is not a transition matrix. If I wanted to model a population going to work, and then going back home, negative and greater than 1 probabilities in the inverse matrix will cause issues. I propose a method to compute the ”inverse” of a transition matrix, and the result is still a transition matrix
